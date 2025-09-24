@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Card</title>
+
+        <style>
+            .cardcontainer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .card {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                background-color: #efefef;
+                padding: 14px;
+                border-radius:16px;
+                box-shadow: 0 4px 8px #ccc;
+            }
+
+            .card .img {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 300px;
+                background-image: url("Images/yankees.jpeg");
+                background-size: contain;
+                background-position: center;
+                border-radius: 8px;
+
+            }
+
+            .card .nyj { background-image: url("Images/jets.png");}
+            
+            .card .bkn {background-image: url("Images/nets.png");}
+
+            .card .nyi { background-image: url("Images/islanders.png"); }
+
+            .card .desc {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12.5pt;
+                margin: 8px;
+                flex-grow: 2;
+            }
+
+            .card a:link,
+            .card a:active,
+            .card a:visited {
+                display: block;
+                background-color: rgb(3, 22, 119);
+                color: skyblue;
+                padding: 12px;
+                border-radius: 8px;
+                font-weight:bold;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .card a:hover,
+            .card a:focus {
+                background-color: rgb(74, 180, 250);
+                color: #fff;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>My Favorite Sports Teams</h1>
+
+        <div class="cardcontainer">
+        <div class="card">
+            <div class="img nyy"></div>
+            <div class="desc">
+                <p>The New York Yankees are a professional baseball team based in the Bronx, New York, that competes in Major League Baseball (MLB)'s American League (AL) East Division, known for being arguably the most successful professional sports franchise in the United States, holding numerous MLB records including 27 World Series championships.</p>
+        </div>
+        <a href="#">Read More</a>
+    </div>
+
+     <div class="card">
+            <div class="img nyj"></div>
+            <div class="desc">
+                <p>The New York Jets are a professional American football team based in the New York metropolitan area, competing in the NFL's AFC East division. Founded in 1960 as the Titans of New York, the franchise changed its name to the Jets in 1963 and famously won Super Bowl III in 1969, becoming the first AFL team to defeat an NFL club in the championship. The team plays its home games at MetLife Stadium in East Rutherford, New Jersey, alongside their local rivals, the New York Giants.</p>
+        </div>
+        <a href="#">Read More</a>
+        </div>
+        <div class="card">
+            <div class="img bkn"></div>
+            <div class="desc">
+                <p>The Brooklyn Nets are a professional basketball team in the National Basketball Association (NBA) that play their home games at Barclays Center in Brooklyn, New York. The franchise originated in 1967 in New Jersey and moved to Brooklyn in 2012, bringing big-league sports back to the borough after a long absence. The team has a history of ABA championships and NBA finals appearances, and they provide a distinctive Brooklyn experience through their games and community programming.</p>
+        </div>
+        <a href="#">Read More</a>
+
+        </div>
+         <div class="card">
+            <div class="img nyi"></div>
+            <div class="desc">
+                <p>The New York Islanders are a professional ice hockey team in the National Hockey League (NHL) based in Elmont, NY, on Long Island, though they also previously played in Brooklyn. Founded in 1972, the team is known for its dynasty era where they won four consecutive Stanley Cup titles from 1980 to 1983. They play their home games at the UBS Arena, having previously played at the Nassau Veterans Memorial Coliseum and the Barclays Center.</p>
+        </div>
+        <a href="#">Read More</a>
+        
+        </div>
+    </div>
+    </body>
+</html>

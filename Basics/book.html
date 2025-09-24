@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Cat in the Hat</title>
+
+        <style>
+            body{
+                background-color: red;
+                color:#ffffff; 
+            }
+
+            header{
+                background-color:white;
+                color: black;
+            }
+
+            h1 {
+                font-size: 41pt;
+                font-family:'Times New Roman', Times, serif;
+            }
+
+            a:link { color: green; } /* default state*/
+            a:active { color: red; } /* when held*/
+            a:visited { color: purple; } /* has been clicked before*/
+            a:hover { color: pink; } /* mouse over */
+            a:focus { color: lime; } /* tabbed to */
+
+            img{
+                width: 300px; 
+                border-radius: 32px;
+
+                border-width: 2px;
+                border-style: solid;
+                border-color:white;
+                /* border: 2px solid white; */
+
+                padding:10px;
+                margin: 10px;
+                margin-top: 50px;
+            }
+
+            table {
+                border-width: 2px;
+                border-style: dotted;
+                border-color: white;
+            }
+
+            th, td {
+                border-width: 2px;
+                border-style: groove;
+                border-color: white;
+                padding: 6px 24px; /* top & bottom - left & right*/
+            }
+
+            th {
+                text-align: right;
+            }
+
+            .about{
+                margin: 100px;
+                font-size:16 pt;
+                background-color: white;
+                color: black;
+                padding: 20px;
+                border-radius: 32px;
+            }
+            .zoom-in{
+                cursor: zoom-in;
+            }
+            </style>
+    </head>
+    
+    <body>
+        <header class="zoom-in">
+            <h1>The Cat in the Hat</h1>
+        </header>
+        
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Dr._Seuss">Dr. Seuss</a>
+        </nav>
+
+        <main class="about">
+            <p>In this live-action film based on the favorite children's tale, the trouble-making Cat in the Hat (Mike Myers) arrives at the home of bored young Sally Walden (Dakota Fanning) and her brother, Conrad (Spencer Breslin), while their mother (Kelly Preston) is out. The family's pet fish (Sean Hayes) objects to the Cat's presence, but that doesn't stop the hat-wearing giant feline from trying to have fun, no matter how much destruction is left in his wake.</p>
+        </main>
+        <nav>
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/10/The_Cat_in_the_Hat.png" alt="The Cat in the Hat"><img height="350" src="https://static.wikia.nocookie.net/non-aliencreatures/images/e/ec/CatInTheHat.png/revision/latest?cb=20150910030521" alt="Cat in The Hat Standing"><img height="350" src="https://i0.wp.com/www.raptisrarebooks.com/images/71359/the-cat-in-the-hat-dr-seuss-first-edition-signed-with-a-drawing-scarce.jpg?fit=556%2C800&ssl=1" alt="Cat in the Hat Thing 1 and Thing 2"><img height="350" width="350" src="https://cdn11.bigcommerce.com/s-0f1b1/images/stencil/1280x1280/products/7544/47336/The_Cat_in_the_Hat_Hardcover2__11631.1559914269.jpg?c=2?imbypass=on" alt="Cat in the Hat book"><img height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbQYbrfBIBoiTnftD35OEx1vrMfKJr61nt4g&s" alt="Cat in the Hat Book"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHg_u4Dfs5ULVp75lRWdvYgzTKUas2-7IgIA&s" alt="Cat in the Hat">
+        </nav>   
+        <br> 
+        <aside class="about">
+            <h3>About The Author</h3>
+            <p>Theodor Seuss Geisel, better known as Dr. Seuss, was a prolific children's author, poet, illustrator, and political cartoonist. His work, which includes over 60 books, has sold more than 600 million copies and been translated into over 20 languages. Dr. Seuss's books are known for their whimsical illustrations and zany rhymes, and feature strong, kind characters who overcome challenges with humor and irony.</p>
+        </aside>
+
+        <aside>
+            <table>
+                <tr>
+                    <th>ISBN:</th>
+                    <td>039480001X</td>
+                </tr>
+                <tr>
+                    <th>Number of Pages:</th>
+                    <td>61</td>
+                </tr>
+                <tr>
+                    <th>Publisher:</th>
+                    <td>Random House</td>
+                </tr>
+                <tr>
+                    <th>Published Date:</th>
+                    <td>March 2, 1957</td>
+                </tr>
+            </table>
+        </aside>
+    </body>
+</html>

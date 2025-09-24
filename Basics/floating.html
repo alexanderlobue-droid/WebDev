@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floating Elements</title>
+
+        <style>
+            .floatimage {
+                padding: 20px;
+                border: 1px solid black;
+            }
+
+            /* clearfix */
+            .floatimage::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .floatimage img {
+                width: 200px;
+                float: right; 
+            }
+
+            .divfloat {
+                background-color: black;
+                width: 33.3333%;
+                height: 200px;
+                float: left
+            }
+
+            .float2 { background-color: #ccc; }
+        </style>
+    </head>
+
+    <body>
+        <div class="floatimage">
+            <img src="Images/yankees.jpeg" alt="Yankees Logo">
+            <p>The New York Yankees are a professional baseball team based in the Bronx, New York, that competes in Major League Baseball (MLB)'s American League (AL) East Division, known for being arguably the most successful professional sports franchise in the United States, holding numerous MLB records including 27 World Series championships.</p>
+        </div>
+
+        <div class="divfloat"></div>
+        <div class="divfloat float2"></div>
+        <div class="divfloat"></div>
+    </body>
+</html>
