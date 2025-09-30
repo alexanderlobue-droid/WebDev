@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MLB Teams</title>
+</head>
+
+<style>
+    .card { 
+        box-shadow: 0 6px 12px black;
+        border-radius: 12px;
+        margin-top: 20px;
+        padding: 6px;
+        background-color:rgb(215, 207, 207);
+        color: white;
+        background-image: url("Images/yankees.jpeg");
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .card div {
+        background-color: rgb(1, 1, 113);
+        text-align:center;
+    }
+
+    .card a {
+        color: white;
+    }
+
+    .card a:hover,
+    .card a:focus {
+        background-color: gray;
+    }
+
+    .cardcontainer {
+        display: flex;
+        gap:30px;
+    }
+
+    .dodgers {
+        background-image: url("Images/dodgers.png");
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .dodgers div {
+        background-color: rgb(49, 104, 255);
+    }
+
+    .phillies {
+        background-image: url("Images/phillies.png");
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .phillies div {
+        background-color: red;
+    }
+
+
+</style>
+<body>
+    <h1>MLB Teams</h1>
+    <div class="cardcontainer">
+    <div class="card">
+        <div>
+            <h2>New York Yankees</h2>
+            <p>The New York Yankees are an American professional baseball team competing in MLB's American League East division. Established in 1901 in Baltimore and moving to New York in 1903, the Yankees have achieved unparalleled success, winning a record 27 World Series championships and 41 American League pennants. This legacy was built through contributions from legendary figures like Babe Ruth, Lou Gehrig, Joe DiMaggio, Mickey Mantle, Derek Jeter, and Mariano Rivera. They play their home games at Yankee Stadium in the Bronx, which opened in 2009.</p>
+            <a href="#">Visit</a>
+            </div>
+        </div>
+    <div class="card dodgers">
+        <div>
+            <h2>Los Angeles Dodgers</h2>
+            <p>The Los Angeles Dodgers are a Major League Baseball (MLB) team based in Los Angeles, California. Originally established in Brooklyn, New York, in 1883, they moved to Los Angeles in 1958. They hold 8 World Series titles and a record 25 National League (NL) pennants. Notable players include Jackie Robinson, who broke the MLB color barrier, Sandy Koufax, and current stars like Mookie Betts and Shohei Ohtani. Dodger Stadium, their home since 1962, is an iconic ballpark. The organization is also known for its strong community involvement through the Los Angeles Dodgers Foundation.</p>
+            <a href="#">Visit</a>
+            </div>
+        </div> 
+        <div class="card phillies">
+        <div>
+            <h2>Philadelphia Phillies</h2>
+            <p>The Philadelphia Phillies are a Major League Baseball (MLB) team based in Philadelphia, Pennsylvania, and compete in the National League (NL) East division. Founded in 1883, they are the oldest continuously operating, one-name, one-city franchise in American professional sports. The team's history has been marked by both struggles and successes, including a prolonged period with more losses than wins. Despite this, the Phillies have achieved significant milestones, including two World Series championships, in 1980 and 2008. They play their home games at Citizens Bank Park, which opened in 2004. Notable players throughout their history include Hall of Famers like Mike Schmidt and Steve Carlton, as well as more recent stars such as Bryce Harper and Aaron Nola.</p>
+        <a href="#">Visit</a>
+        </div>
+    </div> 
+    </div>
+    </div>
+</body>
+</html>
