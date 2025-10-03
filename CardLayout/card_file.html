@@ -8,18 +8,21 @@
     .card { 
         box-shadow: 0 6px 12px black;
         border-radius: 12px;
-        margin-top: 20px;
         padding: 6px;
         background-color:rgb(215, 207, 207);
         color: white;
         background-image: url("Images/yankees.jpeg");
         background-position: top center;
-        background-size: cover;
+        background-size:contain;
     }
 
     .card div {
-        background-color: rgb(1, 1, 113);
+        background-color: #0C2340;
         text-align:center;
+        margin-top: 300px;
+        width: 450px;
+        flex-wrap: row;
+        border-radius: 12px;
     }
 
     .card a {
@@ -34,6 +37,7 @@
     .cardcontainer {
         display: flex;
         gap:30px;
+        flex-wrap: wrap;
     }
 
     .dodgers {
@@ -43,7 +47,8 @@
     }
 
     .dodgers div {
-        background-color: rgb(49, 104, 255);
+        background-color: #005A9C;
+        border-radius: 12px;
     }
 
     .phillies {
@@ -53,7 +58,27 @@
     }
 
     .phillies div {
-        background-color: red;
+        background-color: #E81828;
+        border-radius: 12px;
+    }
+
+    .brewers {
+        background-image: url("Images/brewers.png");
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .brewers div {
+        background-color: #ffc52f;
+        color: #12284b;
+    }
+
+    .bluejays {
+        background-image: url("Images/bluejays.png");
+    }
+
+    .bluejays div {
+        background-color: #134A8E;
     }
 
 
@@ -79,6 +104,21 @@
         <div>
             <h2>Philadelphia Phillies</h2>
             <p>The Philadelphia Phillies are a Major League Baseball (MLB) team based in Philadelphia, Pennsylvania, and compete in the National League (NL) East division. Founded in 1883, they are the oldest continuously operating, one-name, one-city franchise in American professional sports. The team's history has been marked by both struggles and successes, including a prolonged period with more losses than wins. Despite this, the Phillies have achieved significant milestones, including two World Series championships, in 1980 and 2008. They play their home games at Citizens Bank Park, which opened in 2004. Notable players throughout their history include Hall of Famers like Mike Schmidt and Steve Carlton, as well as more recent stars such as Bryce Harper and Aaron Nola.</p>
+        <a href="#">Visit</a>
+        </div>
+    </div>
+    <div class="card brewers">
+        <div>
+            <h2>Milwaukee Brewers</h2>
+            <p>The Milwaukee Brewers are a Major League Baseball (MLB) team based in Milwaukee, Wisconsin, competing in the National League (NL) Central division. The franchise began as the Seattle Pilots in 1969 before relocating to Milwaukee in 1970. The team has made one World Series appearance in 1982, losing to the St. Louis Cardinals, and are one of five current MLB teams that have never won a World Series title. The Brewers play their home games at American Family Field. Notable players in their history include Hall of Famer Robin Yount, who played his entire career in Milwaukee from 1974 to 1993 and won two American League MVP awards. Other key players include Paul Molitor, Ryan Braun, and Christian Yelich, who won the National League MVP award in 2018. The Brewers have seen consistent playoff contention in recent years, winning the NL Central division in 2025.</p>
+        <a href="#">Visit</a>
+        </div>
+    </div> 
+    <div class="card bluejays">
+        <div>
+            <h2>Toronto Blue Jays</h2>
+            <p>The Toronto Blue Jays are a Major League Baseball (MLB) team based in Toronto, Canada, and the only Canadian team currently competing in the league. They were founded in 1977 as an expansion franchise in the American League East division, where they continue to play today. While the franchise endured some typical growing pains in its early years, it rose to become a dominant force in the late 1980s and early 1990s, winning back-to-back World Series titles in 1992 and 1993 and becoming the first team outside of the United States to achieve that feat. After a period of struggle, the Blue Jays have re-emerged as perennial playoff contenders, driven by a roster of talented young stars like Vladimir Guerrero Jr. and Bo Bichette. They play their home games at Rogers Centre in downtown Toronto, a stadium known for its retractable roof and iconic location next to the CN Tower. 
+</p>
         <a href="#">Visit</a>
         </div>
     </div> 
