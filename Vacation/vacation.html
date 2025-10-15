@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destination</title>
+
+    <style>
+        * { box-sizing: border-box;}
+
+        nav {
+            display:flex;
+            flex-direction: row;
+            gap: 30px;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 12px 50px;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #CE2B37;
+        }
+
+        nav img {width:50px;} 
+        nav a:first-of-type { margin-left: auto; }
+        nav a.login_button {
+            border: 1px solid #000;
+            padding: 8px 16px;
+        }
+
+        header {
+            display:flex;
+            align-items: center;
+            gap: 50px;
+            background-color: #008C45;
+            border: 2.5px solid #000;
+            padding: 20px;
+            color: #FFFFFF;
+        }
+
+        header div {width: 50%}
+        header image {width:100%;}
+        header .image {
+            height: 400px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        aside img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+
+        aside {
+            margin: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            overflow: hidden;
+        }
+
+        .cardcontainer { 
+        padding: 6px;
+        background-color:rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        background-color: red;
+    }
+
+        .card {
+            margin: 60px;
+            background-color: white;
+        }
+
+        .card img {
+            width:250px;
+            margin-top: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="images/italy.png" alt="italy">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Destinations</a>
+        <a href="#">Sell</a>
+        <a href="#">Contact</a>
+        <a href="#" class="login_button">Login/Signup</a>
+    </nav>
+
+    <header>
+        <div>
+            <h1>Italy Destination</h1>
+            <p>Culpa nulla excepteur adipisicing quis anim id ex in mollit laboris eiusmod elit adipisicing. Eu eiusmod consectetur occaecat minim do veniam aliqua irure esse ex Lorem consequat duis. Labore cillum do occaecat nostrud ut reprehenderit laboris proident.</p>
+            <a href="#">Book Now</a>
+        </div>
+        <div class="image">
+            <img src="images/italycity.webp" alt="Italy">
+        </div>
+    </header> 
+    <aside>
+        <img src="images/italy-coliseum.avif" alt="Coliseum">
+        <img src="images/italypicture2.jpg" alt="Italy">
+        <img src="images/italycity.webp" alt="Italy">
+        <img src="images/italypicture3.jpg" alt="Italy">
+        <img src="images/pisa.jpeg" alt="Leaning Tower of Pisa">
+    </aside>
+    <body> 
+    <div class="cardcontainer">
+        <div class="card">
+            <img src="images/beaches.jpg" alt="Beaches">
+            <h2>Beaches</h2>
+            <p>Et mollit cupidatat irure magna voluptate proident dolor nisi enim aute deserunt consequat.</p>
+        </div>
+        <div class="card">
+            <img src="images/restaurantitaly.webp" alt="Restaurants">
+            <h2>Restaurants</h2>
+            <p>Et mollit cupidatat irure magna voluptate proident dolor nisi enim aute deserunt consequat.</p>
+        </div> 
+        <div class="card">
+            <img src="images/wintertime.jpg" alt="Winter">
+            <h2>Wintertime</h2>
+            <p>Et mollit cupidatat irure magna voluptate proident dolor nisi enim aute deserunt consequat.</p>
+        </div>
+    </div>
+</body>
+</html>
