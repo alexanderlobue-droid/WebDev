@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Playoff Teams</title>
+</head>
+
+<style>
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 12px 50px;
+        border: 1px solid black;
+        background-color: rgb(156, 156, 156);
+    }
+    nav img { width:100px; }
+    nav a:first-of-type { margin-left: auto; }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid red;
+        border-radius: 10%;
+        padding: 5px;
+    }
+
+    .image {
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .text {
+        border: 1px solid black;
+        width: 200px;
+        padding: 12px;
+        margin: 50px;
+        background-color: #041E42;
+        color: white;
+    }
+
+    .text2 {
+        background-color: white;
+        color: black;
+    }
+
+    .text3 {
+        background-color: #BF0D3E;
+        color: white;
+    }
+
+    .teams {
+        display: flex;
+        margin: 100px 50px;
+    }
+
+    .teams div {
+        border: 1px solid black;
+        width: 500px;
+        padding: 12px;
+        margin: 50px;
+        overflow: hidden;
+    }
+
+    .teams img {
+        width: 200px
+    }
+</style>
+<body>
+    <nav>
+        <img src="Images/MLB.png" alt="MLB Logo">
+        <a href="#">Schedule</a>
+        <a href="#">Scores</a>
+        <a href="#">Playoff Bracket</a>
+    </nav>
+
+    <div class="image">
+    <img src="Images/MLB.png" alt="MLB Logo"></div>
+
+    <header>
+        <div class="container">
+        <div class="text">
+            <h2>Overview</h2>
+            <p>In the 21st century, MLB's postseason has expanded significantly, starting with the addition of a second Wild Card and a one-game playoff in 2012 before settling on the current 12-team, six-team-per-league format with a best-of-three Wild Card Series in 2022.               
+            </p>         
+        </div>
+
+        <div class="text text2">
+            <h2>History</h2>
+            <p>Major League Baseball's postseason evolved from a single World Series matchup between league champions to a multi-round tournament with the addition of the League Championship Series in 1969, the Division Series in 1995, and the Wild Card rounds starting in 2012, expanding the field to the current 12 teams competing in a bracket-style format.       
+            </p>         
+        </div>
+        <div class="text text3">
+            <h2>Rivalries</h2>
+            <p>Long-standing MLB postseason rivalries include the Boston Red Sox vs. New York Yankees, Los Angeles Dodgers vs. San Francisco Giants, and St. Louis Cardinals vs. Chicago Cubs, characterized by intense competition and storied histories, according to MLB.com. The Yankees and Dodgers also have a significant postseason history, meeting 12 times in the World Series.</p>         
+        </div>
+    </div>
+    </div>
+    </header>
+
+    <aside>
+        <div class="teams">
+            <div>
+                <img src="Images/dodgerslogo.png" alt="Dodgers">
+                <p>The 2025 Los Angeles Dodgers won their division and made it to the World Series after a dominant regular season and postseason. As the defending champions from 2024, they were the favorite to win their second consecutive World Series title.</p>
+            </div>
+            <div>
+                <img src="Images/brewers.png" alt="Brewers">
+                <p>The 2025 Milwaukee Brewers won a franchise-record 97 games and the NL Central title, but their season ended with a four-game sweep by the Los Angeles Dodgers in the NLCS. The team's regular season success, which included a 14-game winning streak, was ultimately outmatched by the powerful Dodgers lineup. </p>
+            </div>
+            <div>
+                <img src="Images/bluejays.png" alt="Blue Jays">
+                <p>The 2025 Milwaukee Brewers won a franchise-record 97 games and the NL Central title, but their season ended with a four-game sweep by the Los Angeles Dodgers in the NLCS. The team's regular season success, which included a 14-game winning streak, was ultimately outmatched by the powerful Dodgers lineup. </p>
+            </div>
+            <div>
+                <img src="Images/mariners.png" alt="Mariners">
+                <p>
+                    The 2025 Seattle Mariners won the American League West division title with a 90–72 record before being eliminated by the Toronto Blue Jays in Game 7 of the ALCS. The team's season ultimately ended in heartbreak, as they were eight outs away from their first-ever World Series appearance.
+                </p>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
