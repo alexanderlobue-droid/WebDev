@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex LoBue's Web Dev Portfolio</title>
+</head>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color:#0077b6;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+nav {
+  background-color: #b51200;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav li {
+  margin: 0.5rem 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ffd60a;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  border-bottom: 3px solid #0077b6;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+article {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+article h3 {
+  margin-bottom: 0.5rem;
+  color: #0077b6;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+.fm-section {
+  background-color: #e6f7ff;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.fm-section article {
+  background: #ffffff;
+}
+
+
+footer {
+  background-color: #b51200;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #ffd60a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+}
+</style>
+
+<body>
+    <nav>
+    <ul>
+      <li><a href="#class-projects">Class Projects</a></li>
+      <li><a href="#frontend-mentor">FrontendMentor Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Alex LoBue's Dev Portfolio</h1>
+    <p>Throughout the semester I have learned the fundamentals on how to create a website. This website displays my development.</p>
+  </header>
+
+  
+
+  <main>
+    <section class="class-projects">
+      <h2>Class Projects</h2>
+
+      <article>
+        <h3>Project 1: Card Layout</h3>
+        <p>In this project I developed the skill of making cards through flexbox.</p>
+        <a href="file:///Users/alex/Documents/WebDev/WebDev/CardLayout/card_file.html">View Project</a>
+      </article>
+
+      <article>
+        <h3>Project 2: Layout Wire Frame</h3>
+        <p>In this project I learned how to properly format a website while mastering CSS. </p>
+        <a href="file:///Users/alex/Documents/WebDev/WebDev/LayoutWireframe/wireframe1.html">View Project</a>
+      </article>
+
+      <article>
+        <h3>Project 3: Vacation</h3>
+        <p>In this project I learned how to create a circular image and mastered making divs and classes to seperate content.</p>
+        <a href="file:///Users/alex/Documents/WebDev/WebDev/Vacation/vacation.html">View Project</a>
+      </article>
+    </section>
+
+    <section class="frontend-mentor" class="fm-section">
+      <h2>FrontendMentor Projects</h2>
+
+      <article>
+        <h3>Social Links Profile</h3>
+        <p><strong>Key Skill:</strong> Mastered centering and spacing using Flexbox.</p>
+        <a href="file:///Users/alex/Documents/WebDev/WebDev/FrontendMentor/social_links_profile/index.html">View Project</a>
+      </article>
+
+      <article>
+        <h3>Three Column Layout</h3>
+        <p><strong>Key Skill:</strong> Used CSS Grid to organize text and images elegantly.</p>
+        <a href="file:///Users/alex/Documents/WebDev/WebDev/FrontendMentor/three-column-layout/index.html">View Project</a>
+      </article>
+    </section>
+  </main>
+  <footer class="contact">
+    <p>Alex LoBue</p>
+    <p>Contact: <a href="mailto:alexanderlobue@cougarmail.email">alexanderlobue@cougarmail.email</a></p>
+  </footer>
+</body>
+</html>
