@@ -105,6 +105,39 @@ footer {
     border-radius: 8px;
 }
 
+.history-cards-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .history-card {
+            flex: 1; 
+            border: 1px solid #d4ae41; 
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 0 4px #fcf8ee; 
+        }
+
+        .card-year {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .content-section img {
+            width: 100%;
+            height: 400px;
+        }
+
 
 @media (max-width: 600px) {
     nav ul {
@@ -137,19 +170,42 @@ footer {
             <li><a href="history.html">History</a></li>
         </ul>
     </nav>
+    <main class="content-section">
+        <h2 class="section-title">Thanksgiving History</h2>
+        <img src="images/thanksgiving2.jpeg" alt="Happy Thanksgiving">
+        <p>
+            Thanksgiving history begins with the 1621 harvest feast shared by the Pilgrims and the Wampanoag people in Plymouth. For over a century, observances were irregular.
+            President George Washington issued the first national proclamation for a day of thanks in 1789. The holiday was made annual and national in 1863 when President Abraham Lincoln declared the last Thursday in November as Thanksgiving Day to unite the war-weary nation during the Civil War.
+        </p>
 
-    <main>
-        <article>
-            <img src="images/thanksgiving.jpeg" 
-                alt="Thanksgiving Dinner" 
-                class="main-image">
-            <h1>Celebrate the Season</h1>
-            <p>
-                Thanksgiving is a federal holiday in the United States, observed annually on the fourth Thursday of November. It originated from a 1621 harvest feast shared by the Plymouth colonists and the Wampanoag, and became a national holiday in 1863 when President Abraham Lincoln established the last Thursday of November as a day for giving thanks. The date was officially fixed by Congress in 1941 to ensure consistency. Modern traditions center around family gatherings, a large meal featuring turkey and seasonal dishes, watching parades and football games.
+        <br>
+        
+        <div class="history-cards-container">
+            
+            <div class="history-card">
+                <div class="card-year">1621</div>
+                <p class="card-text">
+                    Pilgrims shared a harvest feast after success with the Wampanoag's help.
+                </p>
+            </div>
 
-            </p>
-        </article>
+            <div class="history-card">
+                <div class="card-year">1789</div>
+                <p class="card-text">
+                    George Washington declared a national day of thanks.
+                </p>
+            </div>
+
+            <div class="history-card">
+                <div class="card-year">1863</div>
+                <p class="card-text">
+                    Abraham Lincoln proclaimed Thanksgiving a national annual holiday
+                </p>
+            </div>
+
+        </div>
     </main>
+   
 
     <footer>
         <p>&copy; 2025 Thanksgiving Feast Website Project</p>
